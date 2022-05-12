@@ -1,0 +1,335 @@
+   
+        /*live projects*/
+        .project-box{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid transparent;
+            margin:40px auto;
+            width:100%;
+          }
+          .projects {
+           border:1px solid transparent;
+          margin-top:30px;
+          }
+  
+          .each-projects{
+            width: 30%;
+            margin: 10px;
+            padding:20px;
+            border: 1px solid transparent;
+          }
+
+          .projects-img{
+              width: 70%;
+              height:300px;
+              object-fit: contain;
+          }
+          
+          /*
+          .projectsb{
+          margin-top:30px;
+          border: 1px solid green;
+          }
+          
+          */
+          .projects h3{
+            font-size:0.9em;
+            font-weight: bold;
+            align-items: center;
+            position:absolute;
+            justify-content:center;
+            margin:10px 10px 10px 30%;
+            border:1px solid transparent;
+            padding:10px 30px;
+            border-radius:30px;
+            background-color: var(--color-white);
+          }
+          
+          
+          .bucx-h3{
+            margin:-20px 0 0 100px;
+            font-family: 'Mukta', sans-serif;
+            /*  font-family: 'Poppins', sans-serif;*/
+            font-size:0.8em;
+            border: 1px solid white;
+            position:absolute;
+            background-color:white;
+            border-radius:30px;
+            text-align: center;
+            padding:10px 30px;
+            font-weight: bold;
+          }
+          
+          .bucuzzi{
+          position: relative;
+          padding: 10px;
+          border: 1px solid white;
+          background-color: white;
+          box-shadow: 0 0 10px #cecece;
+          margin: 7px;
+          border-radius: 7px;
+          }
+          
+          .globe{
+          height:150px;
+          position: relative;
+          border: 1px solid white;
+          background-color: white;
+          box-shadow: 0 0 10px #cecece;
+          margin: 7px;
+          border-radius: 7px;
+          
+          }
+          
+          .lost,.facebook{
+          height:180px;
+          position: relative;
+          border: 1px solid white;
+          background-color: white;
+          box-shadow: 0 0 10px #cecece;
+          margin: 7px;
+          border-radius: 7px;
+          
+          }
+          
+          .xor{
+          height:280px;
+          position: relative;
+          border: 1px solid white;
+          background-color: white;
+          box-shadow: 0 0 10px #cecece;
+          margin: 7px;
+          border-radius: 7
+            
+            }
+          .bucuzzi p,.globe p,.lost p,.facebook p,.xor p{
+      color:black;
+          font-weight:lighter;
+          text-indent:5px;
+          font-family:'Spartan',sans-serif;
+          text-align:justify;
+          align-items:center;
+          text-overflow:ellipsis;
+          justify-content:center;
+          letter-spacing:0.1px;
+          line-height:25px;
+          margin:15px;
+          font-size:0.8em;
+          }
+
+          .link-box{
+            text-decoration: none;
+            padding :15px 0px;
+            border: 1px solid #000006;
+            font-family:'Mukta',sans-serif;
+            background-color:#000006;
+            font-size:0.7em;
+            border-radius:30px;
+            font-weight:bold;
+            color:white;
+            letter-spacing:0.4px; 
+            align-items:center;
+            justify-content:center;
+            display:flex;
+            width:40%;
+            position:relative; 
+            margin:0 auto;
+          }
+
+          .link-box a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+          }
+
+
+          .bucuzzi a,.globe a,.lost a,.facebook a,.xor a{
+            text-decoration: none;
+            padding :10px 30px;
+            border: 1px solid #000006;
+            font-family:'Mukta',sans-serif;
+            background-color:#000006;
+            font-size:0.7em;
+            border-radius:30px;
+            font-weight:bold;
+            color:white;
+            letter-spacing:-0.4px;
+            margin:-20px 70px;            
+            position:absolute; 
+          }
+          
+          /*
+          .bucuzzib a{
+          text-decoration: none;
+          padding :10px;
+          border: 1px solid white;
+          font-family:'Poppins',sans-serif;
+          background-color:red;
+          font-size:0.7em;
+          border-radius:5px;
+          font-weight:bold;
+          color:white;
+          letter-spacing:-0.4px;
+          margin:-10px 0 0 80px;
+          align-items:;
+          text-align:;
+          position:absolute;
+          }
+          */
+          
+          .bucuzzi a:hover {
+           background-color:white;
+           color:black;
+          }
+
+
+
+          .slideshow-container {
+            max-width:80%;
+            position: relative;
+            margin:25px auto 0;
+            }
+            
+            .slideshow-containerb {
+            max-width:90%;
+            position: relative;
+            margin: auto;
+            height:px;
+            
+            
+            }
+            
+            /* Next & previous buttons */
+            .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            }
+          
+            /* Position the "next button" to the right */
+            .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+            }
+            
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+            }
+            
+            /* Caption text */
+            .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            }
+            
+            /* Number text (1/3 etc) */
+            .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            }
+            
+            /* The dots/bullets/indicators */
+            .dot {
+            cursor:pointer;
+            height:8px;
+            width: 8px;
+            margin:-10px 0 0 0;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            }
+            
+            .active, .dot:hover {
+            background-color: #717171;
+            }
+            
+            /* Fading animation */
+            .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+            }
+            
+            @-webkit-keyframes fade {
+            from {   
+            
+            }
+            to {
+            
+            }
+            /*
+            from {opacity: .4} 
+            to {opacity: 1}
+            */
+            }
+            
+            @keyframes fade {
+            from{
+            translate:scale(1);
+            
+            }
+            to {
+            
+            translate:scale(0.5);
+            
+            }
+            
+            
+            from {opacity: .7} 
+            to {opacity: 1}
+            
+            }
+            
+                   
+          
+          /* ---------------------------MEDIA QUERY FOR SMALL TABLETS AND MOBILE PHONES-----------------*/
+@media screen and (max-width:900px) {
+
+    .project-box{
+        display: flex;
+        flex-direction: column;
+         flex-wrap: nowrap;
+    }
+
+    .each-projects{
+        width: 100%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .bucx-h3{
+      margin:-20px 0 0 50px;
+    }
+
+    .bucuzzi p,.globe p,.lost p,.facebook p,.xor p{
+      font-size: 0.7em;
+    }
+
+    .link-box{
+      text-decoration: none;
+      padding :5px 10px;
+      width: 44%;
+    }
+
+
+}

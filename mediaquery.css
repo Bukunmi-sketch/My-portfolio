@@ -1,0 +1,364 @@
+/* ---------------------------MEDIA QUERY FOR SMALL LAPTOPS AND BIG TABLETS-----------------*/
+
+@media screen and (min-width:992px) {
+    
+}
+
+
+
+/* ---------------------------MEDIA QUERY FOR SMALL TABLETS AND MOBILE PHONES-----------------*/
+@media screen and (max-width:900px) {
+    header ul{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        position:absolute;
+        top:50px;
+        height:100vh;
+        background-color: var(--color-white);
+        left:-100%;
+        }
+
+    header ul li{
+        padding:30px;
+        border:1px solid red;
+            }   
+    
+    .logo{
+        font-size: 25px;  
+        letter-spacing:0;
+       
+        margin-left:20px;
+               }
+            
+
+    .bars{
+        display: block;
+              }        
+
+    .container{
+        flex-direction: column-reverse;
+        height:95%
+    }
+   
+    .profile-photo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .container .landing-details{
+      line-height:50px;
+      font-size:1.4em;
+      padding:0 0 50px;
+      top:-30px;
+      position:relative; 
+    }
+
+      .landing-details .connect{
+      width: 100%;
+       font-size:1.5em;
+       
+    }
+
+    .landing-details .see-more{
+        bottom:-60%;
+         position:absolute;
+         margin:0 0 0 -50px;
+    }
+
+     /* --------------------------------------------------SEE MORE  SECTION PART 2-----------------------------------*/
+
+     .see-container{
+        flex-direction: column;
+        height:75%;
+        padding:0 0 0 0;
+    }
+
+    .see-landing-details .see-info {
+        margin:10px 50px 50px 10px
+     }
+    
+     .see-container .see-landing-details .profile-name{
+         width:70%;
+     }
+     
+      .see-landing-details .see-connect{
+        width: 100%;
+         font-size:1.5em;
+         justify-content:space-evenly;
+      }
+    
+      .see-landing-details .see-connect a{
+                margin:0;
+      }
+
+    .see-container .see-landing-image{
+        margin:100px 0 0 0;
+        border: 1px solid transparent;
+    }
+   
+    .profile-photo{
+     width: 200px;
+        height: 200px;
+    }
+
+    .see-container .see-landing-details{
+      line-height:50px;
+      font-size:1.4em;
+      padding:0 0 50px;
+      top:-90px;
+      position:relative; 
+      width:100%;
+    }
+    
+    .see-container .see-landing-details .about{
+        width:80%;
+    }
+
+    .see-landing-details .see-info {
+        width:85%;
+
+    }
+      .see-landing-details .see-connect{
+      width: 100%;
+       font-size:1.5em;
+       
+    }
+
+
+ /* --------------------------------------------------ABOUT ME SECTION-----------------------------------*/
+.box1 h3{
+    font-size:1em;
+    border: 1px solid transparent;
+    padding:10px 30px;
+    border-radius:50px;    
+    width:40%;
+    background:white;
+    margin:-30px 0 20px 30px;
+    }
+
+.about-box-container{
+    margin:30px 20px 20px 20px;     
+    }    
+
+.about-box{
+  margin:10px;
+  width:100%;
+}
+
+.about-box p{
+  font-size: 0.8em;
+  margin: 0;
+
+}    
+.about-box-container .image-box{
+    display: none;
+}
+
+
+
+/* --------------------------------------------------SKILLS SECTION-----------------------------------*/
+
+
+.tech .specialisation{
+    display: flex;
+    flex-direction: column;
+}
+
+.tech .front-box{
+  margin:20px 0 20px 0;
+  padding: 0 0 0px 0px;
+}
+
+/*
+.front-box .skillcontent{
+    display: flex;
+   flex-wrap:wrap;
+    border:1px solid transparent;
+   flex-direction:row;
+}
+
+.front-box .skillcontent .skillbox{
+    margin: 10px 0 10px 10px; 
+    border:1px solid transparent;
+    display:flex;
+    width: 110px;
+    flex-direction:column;
+}*/
+
+/* --------------------------------------------------SERVICE SECTION-----------------------------------*/
+
+.service-container{ 
+    flex-direction: column;    
+}
+
+
+ /* --------------------------------------------------EXPERIENCE SECTION-----------------------------------*/
+
+.experience-con{
+    flex-direction: column;
+    width:100%;
+}
+  .card-experience-i{
+        padding:0 0 50px 0;
+}
+
+/* --------------------------------------------------TESTIMONY SECTION-----------------------------------*/
+.testimony-box{
+    flex-direction:column;
+
+}
+
+}
+
+@media screen and (max-width:480px) {
+    .logo{
+        font-size: 20px;
+    }  
+    .container .landing-details .profile-name{
+        font-size: 1em;
+    }
+
+    .container .landing-details .about{
+        margin-left: 35px;
+        font-size: 0.8em;
+    }
+
+   .container .landing-details{
+      line-height:40px;
+      font-size:1.2em;
+      margin:0;
+      padding:0 0 20px;
+   }
+
+
+    .landing-details .connect{
+        width: 100%;
+       font-size:1.1em;
+       margin-left:0px;       
+    }
+
+    .landing-details .connect a{
+        font-size:0.8em;
+     }
+
+   .container .landing-image{
+    margin-top:30px;
+}
+
+    .profile-photo{
+        width: 200px;
+        height: 200px;
+    }
+
+ /* --------------------------------------------------SEE MORE  SECTION PART 2-----------------------------------*/
+
+
+ .see-container .see-landing-details{
+    line-height:40px;
+    font-size:1.2em;
+    margin:90px 0 0 0;
+    padding:0 0 20px;
+ }
+
+ .see-landing-details .see-connect a{
+   font-size: 0.6em;
+   padding:5px;
+ }
+
+ .see-container .see-landing-image{
+  margin-top:30px;
+}
+
+  .profile-photo{
+      width: 200px;
+      height: 200px;
+  }
+
+  .about-box{
+    padding:10px;
+  }
+
+  .about-box p{
+    letter-spacing: 0.4px;
+  }
+
+  .box1 h3{
+    font-size:0.7em;
+  }  
+
+  /* --------------------------------------------------SKILL ME SECTION-----------------------------------*/
+
+  .tech .front-box{
+    margin:20px 0 20px 0;
+    padding:0;
+    border-radius:0
+  }
+  .front-box .skillcontent{
+    margin-top:60px;
+    display:flex;
+    padding:10px;
+    flex-wrap:wrap;
+    width:95%;
+    margin:50px 10px 0 10px;
+     
+        }
+        
+.front-box .skillcontent .skillbox{
+   margin:50px 0 50px 10px;
+   border:1px solid #cecece;
+   height:50px;
+   width:50px;
+   display:flex;
+   flex-direction: column;
+   border-radius:50%;
+   background-color:white;
+   position:relative;
+   box-shadow:0 0 10px #cecece;
+}
+
+
+.front-box .skillcontent .skill-icon{ 
+    height:50px;
+    width:50px;
+    border-radius: 50%;              
+     }
+.front-box .skillcontent .skill-name{
+   display:flex;
+   font-weight:bold;
+   font-size: 0.6em;
+}    
+
+.skill-label-box{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  border:1px solid transparent;
+}
+
+.skill-label{
+   padding: 10px 20px;
+   border:1px solid black;
+   border-radius:20px; 
+   margin:5px;
+   font-family: 'lato',sans-serif;
+   letter-spacing: 0.4px;
+}
+
+
+.card-service{
+    width:80%;
+}
+
+.testimony-box{
+    padding:5px;
+    width:100%;
+}
+
+.testimony-card{
+    width:80%;
+}
+
+    
+
+}
