@@ -405,7 +405,7 @@ border:1px solid transparent;
 section.tech{
     padding: 50px 0;
     border: 1px solid transparent;
-    margin: 0 0 0 20px;
+  
 }
 
 .tech h3{
@@ -533,8 +533,8 @@ section.tech{
   display: flex;
   border: 1px solid transparent; 
   font-family: 'lato', sans-serif;
-  margin: 20px 0 0 30px;
-  padding:0 0 70px 0;
+  margin: 20px 0 0 0;
+  padding:0 0 50px 0;
   width:70%;
   flex-direction:column;
   border-radius:5px;
@@ -605,7 +605,7 @@ section.tech{
   .experience-con{
     border: 1px solid transparent;
     display: flex;
-    margin:80px auto ;
+    margin:50px auto ;
     width:70%;
     justify-content: space-around;
     align-items: center;
