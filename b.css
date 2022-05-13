@@ -255,7 +255,8 @@ section.welcome{
  
 .seecard{
     display:block;
-       }
+    border:1px solid red; 
+  }
 
 
 .see-container{
