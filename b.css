@@ -254,8 +254,8 @@ section.welcome{
   /* --------------------------------------------------SEE MORE  SECTION PART 2-----------------------------------*/
  
 .seecard{
-    display:block;
-    border:1px solid red; 
+    display:none;
+    border:1px solid transparent; 
   }
 
 
@@ -533,7 +533,7 @@ section.tech{
   display: flex;
   border: 1px solid transparent; 
   font-family: 'lato', sans-serif;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 30px;
   padding:0 0 50px 0;
   width:70%;
   flex-direction:column;
@@ -662,14 +662,13 @@ section.tech{
 /* ---------------------------CONTACT ME-----------------*/
 
   .contact-me{
-/*background-color: #191919;*/
+background-color: #191919;
     height:800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:var(--color-black);
-    background-color:var(--color-white);
+    color:var(--color-white);
     }
     
 
@@ -753,7 +752,7 @@ footer p:nth-child(1){
      color: #f9004d; 
      font-size: 14px;
      bottom:35px;
-     border: 1px solid red;
+     border: 1px solid transparent;
      }
 
 

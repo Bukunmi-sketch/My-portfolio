@@ -14,3 +14,16 @@ closebar.onclick=()=>{
     barButton.style.display="block";
 }
 
+let firstpage=document.querySelector("section.welcome");
+let secondpage=document.querySelector(".seecard");
+
+firstpage.onclick=()=>{
+    firstpage.style.display="none";
+    secondpage.style.display="block";
+}
+/*
+secondpage.onclick=()=>{
+    firstpage.style.display="none";
+    secondpage.style.display="block";
+}
+*/
