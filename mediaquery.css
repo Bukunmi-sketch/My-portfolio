@@ -20,7 +20,7 @@
         }
 
     header ul li{
-        padding:30px;
+        padding:20px;
         border:1px solid transparent;
             }   
     
@@ -38,7 +38,8 @@
 
     .container{
         flex-direction: column-reverse;
-        height:95%
+        height:95%;
+        padding:50px;
     }
    
     .profile-photo{
@@ -50,20 +51,39 @@
       line-height:50px;
       font-size:1.4em;
       padding:0 0 50px;
-      top:-30px;
+      top:5px;
       position:relative; 
     }
 
+    .container .landing-image{
+        border:1px solid transparent;
+        margin:70px 0 0 0;
+    }
+    
+
       .landing-details .connect{
-      width: 100%;
+       width: 100%;
        font-size:1.5em;
+       bottom:0;
        
     }
 
     .landing-details .see-more{
-        bottom:-60%;
+        bottom:-20%;
          position:absolute;
-         margin:0 0 0 -50px;
+         margin:0 0 0 -30px;
+         background-color: var(--color-white);
+         box-shadow: 0 0 10px #cecece;
+         color:var(--color-black);
+         font-size: 0.6em;
+         font-weight: bold;
+    }
+
+    .landing-details .see-more:hover{
+        background-color: var(--color-black);
+        color: var(--color-white);
+        border: 2px solid var(--color-black);
+        box-shadow:0 0 10px #000006;
     }
 
      /* --------------------------------------------------SEE MORE  SECTION PART 2-----------------------------------*/
