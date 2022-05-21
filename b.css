@@ -151,7 +151,11 @@ section.welcome{
     margin-top:50px;
     height:100vh;
     background-color:var(--color-light);
-    display:block;
+    
+}
+
+.container-holder{
+  display: none;
 }
 
 .container{
@@ -267,7 +271,7 @@ section.welcome{
 
 
 .see-container{
- border:1px solid transparent;
+ border:1px solid black;
  box-shadow:0 0 10px #cecece;
  display: flex;
  align-items: center;

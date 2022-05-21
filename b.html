@@ -93,7 +93,7 @@
 			 <header>
 				<h2 class="logo">Olarinde<span> Bukunmi</span></h2>
 				<ul>
-					<li><a href="#">home</a></li>
+					<li><a href="javascript:void(0);" class="homelink">home</a></li>
 					<li><a href="#">About me</a></li>
 					<li><a href="#">Skills & Tools</a></li>
 					<li><a href="#">Service</a></li>
@@ -115,6 +115,7 @@
 -->
 
 <section class="welcome">
+	<div class="container-holder">
 	  <div class="container" id="container">
 			
 			<div class="landing-details">
@@ -138,7 +139,8 @@
             <img src="images/bucxxc.jpg" class="profile-photo" alt="">
 	    </div>
 
-	</div>		 
+	</div>	
+</div>	 
    </section> 		
  		
 	
@@ -150,6 +152,8 @@
  		 	
      <div class="seecard">
  	     			<!--1-->
+
+					  <div class="go-up">up</div>
  	     	
 				<section class="see-container" id="container">
 
@@ -887,171 +891,8 @@
  	 
 <script src="b.js"></script>
 
- 		 <script type="text/javascript">
- 		 
- 		  let see=document.querySelector(".me");
- 		  let seeme=document.querySelector("#me");
- 		  let seecard=document.querySelector(".seecard");
- 		  let container=document.querySelector("#container");
- 		  let home=document.querySelector(".gohome");
- 		  let liveprojects=document.querySelector(".live-projects");
- 		  let clickproject=document.querySelector(".clickproject");
- 		  let clickedu=document.querySelector(".click-edu");
- 		  let education=document.querySelector(".education-box");
- 		  
- 		  let clickwork=document.querySelector(".clickwork");
- 		  
-
-		   const opena=()=>{
-var x=document.getElementById("nav");
-x.style.top="60px";
-var card=document.getElementById("container");
-card.style.marginTop="140%";
-var secard=document.getElementById("seecontainer");
- secard.style.marginTop="200%";
-var opennn=document.querySelector(".bar");
-opennn.style.display="none";
-var closebar=document.querySelector(".clase");
-closebar.style.display="block";
-} 
- 		 
- 		 
-const closea=()=>{
-var x=document.getElementById("nav");
-x.style.top="-100%";
-var card=document.getElementById("container");
-card.style.marginTop="5%";
-var secard=document.getElementById("seecontainer");
-secard.style.marginTop="0";
-var opennn=document.querySelector(".bar");
-opennn.style.display="block";
-var closebar=document.querySelector(".clase");
-closebar.style.display="none";
-}
- 		 
- 		  
- 		  see.onclick=()=>{
- 		       seecard.style.display="block";
- 		       container.style.display="none";
- 		       me.style.display="none";
- 		       liveprojects.style.display="none";
- 		       education.style.display="none";
- 		       
- 		       closea();
- 		 
- 		        }
- 		        
- 		  seeme.onclick=()=>{
- 		  	     seecard.style.display="block";
- 		 	     container.style.display="none";
- 		         me.style.display="none";
- 		         liveprojects.style.display="none";
- 		         education.style.display="none";
- 		         let cardd=document.querySelector("#card");
- 		         cardd.style.border="1px solid black";
- 		         closea();
- 		      
- 		  }
- 		 
- 		 home.onclick=()=>{
- 		    seecard.style.display="none";
- 		    container.style.display="block";
- 		    me.style.display="block";
- 		    liveprojects.style.display="none";
- 		    education.style.display="none";
- 		    
- 		    closea();
- 		 }
- 		 
- 	     clickproject.onclick=()=>{
- 	 		 	   liveprojects.style.display="block";
- 	  		 	  container.style.display="none";
- 	  		 	  seecard.style.display="none";
- 	   			  me.style.display="none";
- 	   			  education.style.display="none";
- 	   			  
- 	     closea();
- 	     
- 	     }
- 	     
- 	     clickedu.onclick=()=>{
- 	       education.style.display="block";
- 	     container.style.display="none";
- 	     seecard.style.display="none";
- 	     me.style.display="none";
- 	     liveprojects.style.display="none";
- 	     
- 	     closea();
- 	     
- 	     }
- 	/*	 
-  
- 		 let dark=document.querySelector(".dark");	 
- 		 let cover=document.querySelector(".cover");
-         let card=document.querySelector("#card");
-         container;
-         me; 
-         let aboutbox=document.querySelector(".about-box");  
-         let frontbox=document.querySelector(".front-box");
- 		
- 		// let black="black";
- 	//	 let white="white";
- 		 
- 		 dark.onclick=()=>{
- 		     cover.style.backgroundColor=black;
- 		     cover.style.color=white;	
- 		     
- 		     card.style.backgroundColor=black;
- 		     card.style.color=white;
- 		     	
- 		    container.style.backgroundColor=black;
- 		    container.style.color=white;
- 		    container.style.boxShadow="none"
- 		    
- 		   dark.innerHTML='<i class="fa fa-heart-o"></i>';
- 		   dark.classList.remove(".dark");
- 		   dark.classList.add(".light");
- 		      }
- 		 
- 		 let light=document.querySelector(".light");	 
- 		   
- 		 
- 		 let black="black";
- 		 let white="white";
- 		 
- 		 light.onclick=()=>{
- 		 cover.style.backgroundColor=white;
- 		 cover.style.color=black;	
- 		 
- 		 card.style.backgroundColor=white;
- 		 card.style.color=black;
- 		 
- 		 container.style.backgroundColor=white;
- 		 container.style.color=black;
- 		 
- 		 light.innerHTML='<i class="fa fa-moon-o"></i>';
- 		 light.classList.remove("light");
- 		 light.classList.add("dark");
- 		 }
- 		 
- 		 //fayythh twitter
- 		 
- 		 */
- 		</script>
-		 
-		 <script>
- 		 
- 		 
-    
- 		 
- 		 
- 		 
+		 <script>		 
  		 AOS.init();
- 		
- 		 
- 		
- 		 
- 		
  		</script>
  		
  		<script type="text/javascript">

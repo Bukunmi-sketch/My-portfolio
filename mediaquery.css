@@ -57,13 +57,16 @@
 
     .container .landing-image{
         border:1px solid transparent;
-        margin:70px 0 0 0;
-    }
     
+    }
+
+    .container .landing-details .profile-name{
+        font-size: 1.3em;
+    }
 
       .landing-details .connect{
        width: 100%;
-       font-size:1.5em;
+       font-size:1.1em;
        bottom:0;
        
     }
@@ -71,7 +74,6 @@
     .landing-details .see-more{
         bottom:-40%;
          position:absolute;
-         margin:0 0 0 -30px;
          background-color: var(--color-white);
          box-shadow: 0 0 10px #cecece;
          color:var(--color-black);

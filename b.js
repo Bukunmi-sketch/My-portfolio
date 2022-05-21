@@ -16,17 +16,19 @@ closebar.onclick=()=>{
 
 let firstpage=document.querySelector("section.welcome");
 let secondpage=document.querySelector(".seecard");
+let seemore=document.querySelector(".see-more");
+let homebutton=document.querySelector(".homelink");
 
-firstpage.onclick=()=>{
+seemore.onclick=()=>{
     firstpage.style.display="none";
     secondpage.style.display="block";
 }
-/*
-secondpage.onclick=()=>{
-    firstpage.style.display="none";
-    secondpage.style.display="block";
+
+homebutton.onclick=()=>{
+    firstpage.style.display="block";
+    secondpage.style.display="none";
 }
-*/
+
 
 
 function load(){
@@ -35,7 +37,7 @@ function load(){
 
 function rotate(){
     document.getElementById("loader").style.display="none";
-    document.querySelector("section.welcome").style.display="block";
+    document.querySelector(".container-holder").style.display="block";
 
 //setInterval(rotate,5000);
 }
