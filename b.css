@@ -186,6 +186,13 @@ section.welcome{
    letter-spacing: 1px;
 }
 
+.container .landing-details .about{
+  font-size: 0.8em;
+  text-align:center;
+  font-family:'Ubuntu',sans-serif;
+  font-weight: lighter;
+}
+
 
 .landing-details .connect{
     border:1px solid transparent;

@@ -27,3 +27,29 @@ secondpage.onclick=()=>{
     secondpage.style.display="block";
 }
 */
+
+
+function load(){
+    setInterval(rotate,3000); 
+             }
+
+function rotate(){
+    document.getElementById("loader").style.display="none";
+    document.querySelector("section.welcome").style.display="block";
+
+//setInterval(rotate,5000);
+}
+
+
+var i=0;
+var txt="Product Designer,Website $ Mobile App developer";
+var text=document.getElementById("about");
+
+function type(){
+if(i<txt.length){
+text.innerHTML+=txt.charAt(i); i++;
+}
+setInterval(type,1000);     
+}
+type();
+
