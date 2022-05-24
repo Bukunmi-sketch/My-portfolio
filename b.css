@@ -583,7 +583,7 @@ section.tech{
   
   .i-do {
   font-size: 1em;
-     font-family: 'Ubuntu', sans-serif;
+     font-family: 'Mukta', sans-serif;
   }
   
   .do{
@@ -636,17 +636,17 @@ section.tech{
   display: flex;
   flex-direction:column;
   width:100%;
-  margin:50px 0 0 40px;
-  height: 80px;
+  margin:50px 0 0 0;
+ 
   }
   
   .experience-photo{
-  width:50%;
+  width:30%;
   border: 1px solid #f8f8f8; 
-  font-size:1.2em;
+  font-size:0.8em;
   text-align: center;
   height:100%;
-  margin:0 0 0 0;
+  margin:50px 0 0 0;
   background-color:white;
   }
   
@@ -657,11 +657,12 @@ section.tech{
     margin:40px 0 0 0;
     color:black;
     font-size:1.5em;
+    border:1px solid black;
   }
   
   .i-do-i{
   font-size: 1em;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'mukta', sans-serif;
   }
   
  .do-ii{

@@ -33,17 +33,8 @@ homebutton.onclick=()=>{
 
 function load(){
     setInterval(rotate,3000); 
-             }
 
-function rotate(){
-    document.getElementById("loader").style.display="none";
-    document.querySelector(".container-holder").style.display="block";
-
-//setInterval(rotate,5000);
-}
-
-
-var i=0;
+    var i=0;
 var txt="Product Designer,Website $ Mobile App developer";
 var text=document.getElementById("about");
 
@@ -54,4 +45,61 @@ text.innerHTML+=txt.charAt(i); i++;
 setInterval(type,1000);     
 }
 type();
+             }
+
+function rotate(){
+    document.getElementById("loader").style.display="none";
+    document.querySelector(".container-holder").style.display="block";
+
+//setInterval(rotate,5000);
+}
+
+
+
+
+
+
+ /*		
+//original
+var slideIndex = 1;
+showSlides(slideIndex); 
+
+function plusSlides_(n) {
+showSlides(slideIndex+= n);      
+}
+/*
+slideindex=1  (first)
+slideindex=slideindex+n;
+slideindex=1+1=2;   (second)
+slideindex=2+1=3;   (third)
+
+slideindex=3+1=4;    ->slideindex=1  (first)
+
+slideindex=-1+1=0;   ->slideindex=3   (third)
+
+function currentSlide(n) { 
+showSlides(slideIndex = n);
+}
+// slideindex=n
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}  //if n=4 ? slideindex=1 :  
+if (n < 1) {slideIndex = slides.length} ; //if n=0 ? slideindex=3
+
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";  //(0,1,2)all will be none here
+}
+
+for (i = 0; i < dots.length; i++) {
+dots[i].classList.remove("active");
+}
+
+slides[slideIndex-1].style.display = "block"; //1-1 =0, 2-1=1, 3-1=2
+dots[slideIndex-1].classList.add("active");
+}
+*/
+
 
