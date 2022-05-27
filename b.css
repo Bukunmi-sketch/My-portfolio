@@ -130,14 +130,24 @@ header{
    
    }
    
+   header ul li a.resume_view{
+     background-color: #f9004d;
+     color:white;
+     padding: 15px 30px;
+     border-radius:30px;
+   }
+
    header ul li a:hover{
-   color: #f9004d;
+    background-color: #f9004d;
+    color:white;
+    padding: 15px 30px;
+    border-radius:30px;
    transition: .4s;
    }
    
 
  header ul li.btn:hover{
-   transform: scale(1.2);
+   transform: scale(1.1);
    }
  
 /* ------------------------------------------------------END OF NAVBAR ---------------------------------------*/
