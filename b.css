@@ -142,7 +142,13 @@ header{
     color:white;
     padding: 15px 30px;
     border-radius:30px;
-   transition: .4s;
+    transition: .4s;
+   }
+
+   header ul li a.resume_view:hover{
+     background-color: white;
+     border: 2px solid #f9004d;
+     color: black;
    }
    
 
@@ -232,7 +238,7 @@ section.welcome{
       background-color: var(--color-black);
       color: var(--color-white);
       border-radius:30px;
-      padding: 15px 30px;
+      padding: 20px 30px;
       font-weight: bold;
       font-size: 0.4em;
        margin-top:30px;
