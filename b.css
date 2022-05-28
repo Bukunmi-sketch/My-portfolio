@@ -240,7 +240,7 @@ section.welcome{
       border-radius:30px;
       padding:10px 30px;
       font-weight: bold;
-      font-size: 0.4em;
+      font-size: 0.6em;
        margin-top:30px;
        animation:seemore 0.1s linear 10s 10;
        font-family: "mukta", sans-serif;
@@ -264,6 +264,8 @@ section.welcome{
     background-color: var(--color-white);
     color: var(--color-black);
     border: 2px solid var(--color-black);
+    padding:10px 30px;
+    transition: .4s;
   }
 
 
@@ -409,7 +411,7 @@ border:1px solid transparent;
           
     }
     
-    
+
     
 .about-box p{
     color:black;
@@ -424,6 +426,33 @@ border:1px solid transparent;
     margin:5px;
     font-size:0.8em;
     }
+
+    .about-box button{
+      margin:20px 0 0 50px;
+       border:unset;
+      background:unset;
+    }
+
+    .about-box a{
+      margin:30px;
+      background-color: #f9004d;
+     color:white;
+     padding: 10px 30px;
+     border-radius:30px;
+     text-decoration: none;
+     color:white;
+     font-weight: bold;
+     font-family: "mukta",sans-serif;
+     font-size:1em;
+    }
+     .about-box a:hover{
+       background-color: white;
+       border: 2px solid #f9004d;
+       color: black;
+       transition: .4s;
+     }
+     
+
  .about-box-container .image-box{
     margin:10px;
     width:30%;
