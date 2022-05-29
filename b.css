@@ -127,7 +127,8 @@ header{
    color:var(--color-black);
    font-weight: bold;
    text-transform: capitalize;
-   
+   font-weight: 1em;
+   font-family:"handlee",cursive;
    }
    
    header ul li a.resume_view{
@@ -243,7 +244,7 @@ section.welcome{
       font-size: 0.6em;
        margin-top:30px;
        animation:seemore 0.1s linear 10s 10;
-       font-family: "mukta", sans-serif;
+       font-family: "poppins", sans-serif;
   }
 
   .landing-details .see-more p{
@@ -417,7 +418,7 @@ border:1px solid transparent;
     color:black;
     font-weight:light;
     text-indent:5px;
-    font-family:'spartan',sans-serif;
+    font-family:'poppins',sans-serif;
     text-align:justify;
     align-items:center;
     justify-content:center;
@@ -639,7 +640,7 @@ section.tech{
   .do{
   font-size:0.8em;
   margin-top:7px;
-        font-family: 'spartan', sans-serif;
+        font-family: 'Mukta', sans-serif;
   font-weight:light;
   }
   
@@ -712,13 +713,13 @@ section.tech{
   
   .i-do-i{
   font-size: 1em;
-  font-family: 'mukta', sans-serif;
+  font-family: 'poppins', sans-serif;
   }
   
  .do-ii{
   font-size:0.8em;
   margin-top:7px;
-   font-family:'spartan', sans-serif;
+   font-family:'Mukta', sans-serif;
   }
  
 /* ---------------------------CONTACT ME-----------------*/
@@ -886,7 +887,7 @@ footer p:nth-child(1){
 
   .testimony-card .quote p{
       font-size: 0.8em;
-      font-family: 'spartan',sans-serif;
+      font-family: 'Mukta',sans-serif;
   }
   
         
