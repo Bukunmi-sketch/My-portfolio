@@ -107,7 +107,6 @@ header{
     
    span{
    color: #f9004d;
-   color:rgb(223, 67, 223);
    font-family: var(--font-poppins);
    font-family:"cinzel",sans-serif;
    }
@@ -238,6 +237,7 @@ section.welcome{
 
   .landing-details .see-more{
       background-color: var(--color-black);
+      background-color: #f9004d;
       color: var(--color-white);
       border-radius:30px;
       padding:10px 30px;
