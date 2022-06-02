@@ -42,7 +42,7 @@ function type(){
 if(i<txt.length){
 text.innerHTML+=txt.charAt(i); i++;
 }
-setInterval(type,1000);     
+setInterval(type,4000);     
 }
 type();
              }
