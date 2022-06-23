@@ -35,7 +35,7 @@ function load(){
     setInterval(rotate,3000); 
 
     var i=0;
-var txt="Product Designer,Website $ Mobile App developer";
+var txt="Fullstack web developer & Software Engineer";
 var text=document.getElementById("about");
 
 function type(){
