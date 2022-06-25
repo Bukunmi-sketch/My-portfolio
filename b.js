@@ -32,7 +32,7 @@ homebutton.onclick=()=>{
 
 
 function load(){
-    setInterval(rotate,3000); 
+    setInterval(rotate,3500); 
 
     var i=0;
 var txt="Fullstack web developer & Software Engineer";
