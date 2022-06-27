@@ -93,7 +93,7 @@
     justify-content:center;
     text-align:left;
     background-color:#f8f8f8;
-    outline:none;
+    outline:block;
     font-family:'lato',sans-serif;
     font-weight:light;
     }
