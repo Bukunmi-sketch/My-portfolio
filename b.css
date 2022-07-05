@@ -120,9 +120,12 @@ header{
    
    .bars{
     border: 1px solid transparent;
-    padding:5px 10px;
+    padding:1px 1px;
     display: none;
-    font-size:2.1em;
+    font-size:1.6em;
+    background-color: var(--indigo);
+    color: white;
+    border-radius: 5px;
   }
 
   .closebar{
@@ -630,7 +633,7 @@ section.tech{
   width:70%;
   flex-direction:column;
   border-radius:5px;
-  box-shadow: 0 0 20px #cecece;
+ 
   background:white;
   }
   .ser-con{
@@ -710,7 +713,6 @@ section.tech{
   margin:20px;
   border-radius: 6px;
   width: 90%;
-  box-shadow: 0 0 10px #cecece;
   background-color: white;
   }
   .experience-content{
@@ -899,7 +901,6 @@ footer p:nth-child(1){
   width:70%;
   flex-direction:column;
   border-radius:5px;
-  box-shadow: 0 0 20px #cecece;
   background:white;
   }
 

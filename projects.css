@@ -47,9 +47,9 @@
           
           .bucx-h3{
             margin:20px 0 0 100px;
-            font-family: 'Mukta', sans-serif;
+            font-family:var(--font-family-sans-serif);
             /*  font-family: 'Poppins', sans-serif;*/
-            font-size:0.8em;
+            font-size:1em;
             border: 1px solid white;
             position:absolute;
             background-color:white;
