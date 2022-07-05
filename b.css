@@ -10,6 +10,29 @@
     --color-white:#ffffff;
     --color-fadewhite:#f8f8f8;
 
+
+    --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #7b59d0;
+  --secondary: #f8b195;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+
     --border-radius:4px;
     --card-border-radius:5px;
     --btn-padding:10px 25px;
@@ -23,7 +46,11 @@
 
     --font-lato: "lato", sans-serif;
     --font-poppins: "poppins", sans-serif;
-    --font-ubuntu: 'ubuntu',sans-serif
+    --font-ubuntu: 'ubuntu',sans-serif;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; 
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; 
+
 }
 
 
@@ -40,7 +67,7 @@
 }
 
 body{
-    font-family: "lato", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
    color: var(--color-dark);
    background-color: var(--color-light);
    overflow-x: hidden;
@@ -106,9 +133,11 @@ header{
   }
     
    span{
-   color: #f9004d;
-   font-family: var(--font-poppins);
+   color: var(--indigo);
+  
+   letter-spacing: 0.5px;
    font-family:"cinzel",sans-serif;
+   
    }
    
    header ul li{
@@ -132,14 +161,14 @@ header{
    }
    
    header ul li a.resume_view{
-     background-color: #f9004d;
+     background-color: var(--indigo);
      color:white;
      padding: 10px 30px;
      border-radius:30px;
    }
 
    header ul li a:hover{
-    background-color: #f9004d;
+    background-color: var(--indigo);
     color:white;
     padding: 15px 30px;
     border-radius:30px;
@@ -148,7 +177,7 @@ header{
 
    header ul li a.resume_view:hover{
      background-color: white;
-     border: 2px solid #f9004d;
+     border: 2px solid var(--indigo);
      color: black;
    }
    
@@ -237,7 +266,7 @@ section.welcome{
 
   .landing-details .see-more{
       background-color: var(--color-black);
-      background-color: #f9004d;
+      background-color: var(--indigo);
       color: var(--color-white);
       border-radius:30px;
       padding:10px 30px;
@@ -416,10 +445,10 @@ border:1px solid transparent;
 
     
 .about-box p{
-    color:black;
-    font-weight:lighter;
+    color:var(--gray);
+    font-weight:bold;
     text-indent:5px;
-    font-family:'poppins',sans-serif;
+    font-family:var(--font-family-monospace);
     text-align:justify;
     align-items:center;
     justify-content:center;
@@ -437,19 +466,19 @@ border:1px solid transparent;
 
     .about-box a{
       margin:30px;
-      background-color: #f9004d;
+      background-color: var(--indigo);
      color:white;
      padding: 10px 30px;
      border-radius:30px;
      text-decoration: none;
      color:white;
      font-weight: bold;
-     font-family: "mukta",sans-serif;
+     
      font-size:1em;
     }
      .about-box a:hover{
        background-color: white;
-       border: 2px solid #f9004d;
+       border: 2px solid var(--indigo);
        color: black;
        transition: .4s;
      }
@@ -749,7 +778,7 @@ background-color: #191919;
     }
     
     .contact-me .button-two{
-    background-color: #f9004d;
+    background-color: var(--indigo);
     color: white;
     border-radius: 20px;
     padding: 10px 20px;
@@ -762,7 +791,7 @@ background-color: #191919;
     
     .contact-me .button-two:hover{
     background-color: transparent;
-    border: 2px solid #f9004d;
+    border: 2px solid var(--indigo);
     cursor: pointer;
     }
  
