@@ -103,9 +103,9 @@
             }
           .bucuzzi p,.globe p,.lost p,.facebook p,.xor p{
       color:black;
-          font-weight:bold;
+          font-weight:light;
           text-indent:5px;
-          font-family:var(--font-family-sans-serif);
+          font-family: 'gantari', sans-serif;
           text-align:justify;
           align-items:center;
           text-overflow:ellipsis;
@@ -114,7 +114,7 @@
           line-height:25px;
           margin:15px;
           font-size:1em;
-          color: var(--gray);
+        
           }
 
           .link-box{
