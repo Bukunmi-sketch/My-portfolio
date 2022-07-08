@@ -39,14 +39,12 @@
         .sch{
         font-weight: bold;
         font-size:0.9em;
-        font-family: 'Mukta', sans-serif;
         text-transform:Uppercase;
         margin:5px;
         }
         
         .classof{
-        font-size:0.9em;
-        font-family: "lato", sans-serif;
+        font-size:0.7em;
         border: 1px solid #f8f8f8;
         padding: 10px;
         margin:5px;
@@ -55,16 +53,14 @@
         }
         
         .scharena{
-        font-size:0.9em;
-        font-family: "Mukta", sans-serif;
+        font-size:0.7em;
         font-style:italic;
         margin:5px;
         }
         
         .classlevel{
         margin:5px;
-        font-size:0.9em;
-        font-family: "ubuntu", sans-serif;
+        font-size:0.8em;
         
         }
         

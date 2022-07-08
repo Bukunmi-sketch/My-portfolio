@@ -213,6 +213,15 @@
     flex-direction: column;    
 }
 
+.i-do {
+    font-size: 1em;
+   
+ }
+ 
+ .do{
+ font-size:0.8em;
+ }
+
 
  /* --------------------------------------------------EXPERIENCE SECTION-----------------------------------*/
 
@@ -224,6 +233,19 @@
         padding:0 0 50px 0;
 }
 
+.i-do-i{
+    font-size: 1em;
+  
+    }
+    
+ .i-do-position{
+   font-size: 1em;
+   font-family: 'work sans', sans-serif;
+   }
+   
+.do-ii{
+ font-size:0.8em;
+}
 /* --------------------------------------------------TESTIMONY SECTION-----------------------------------*/
 .testimony-box{
     flex-direction:column;
@@ -365,7 +387,6 @@
    border:1px solid black;
    border-radius:20px; 
    margin:5px;
-   font-family: 'lato',sans-serif;
    letter-spacing: 0.4px;
 }
 

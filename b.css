@@ -132,7 +132,7 @@ header{
    
    .bars{
     border: 1px solid transparent;
-    padding:1px 1px;
+    padding:2px 10px;
     display: none;
     font-size:1.6em;
     background-color: var(--indigo);
@@ -480,14 +480,14 @@ border:1px solid transparent;
     .about-box a{
       margin:30px;
       background-color: var(--indigo);
-     color:white;
-     padding: 10px 30px;
-     border-radius:30px;
-     text-decoration: none;
-     color:white;
-     font-weight: bold;
-     
-     font-size:1em;
+      color:white;
+      padding: 10px 20px;
+      border-radius:30px;
+      text-decoration: none;
+      color:white;
+      font-weight: bold;
+      font-family:"work sans",sans-serif;
+      font-size:0.9em;
     }
      .about-box a:hover{
        background-color: white;
@@ -637,7 +637,6 @@ section.tech{
   .card-service{
   display: flex;
   border: 1px solid transparent; 
-  font-family: 'gantari', sans-serif;
   margin: 20px 0 0 30px;
   padding:0 0 50px 0;
   width:70%;
@@ -676,12 +675,12 @@ section.tech{
   }
   
   .i-do {
-  font-size: 1em;
+  font-size: 1.2em;
  
   }
   
   .do{
-  font-size:0.8em;
+  font-size:1em;
   margin-top:7px;
   font-weight:light;
   }
@@ -703,7 +702,7 @@ section.tech{
     padding:10px 30px;
     border-radius:30px;
     background-color: var(--color-white);
-          
+    font-family: "work sans",sans-serif;     
   }
 
   .experience-con{
@@ -753,17 +752,17 @@ section.tech{
   }
   
   .i-do-i{
-  font-size: 1em;
+  font-size: 1.2em;
 
   }
   
   .i-do-position{
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'work sans', sans-serif;
     }
     
  .do-ii{
-  font-size:0.8em;
+  font-size:1em;
   margin-top:7px;
  
   }
@@ -826,13 +825,13 @@ footer p:nth-child(1){
      
      footer p:nth-child(2){
      
-     color: #fcfc;
+     color: var(--indigo);
      font-size: 16px;
      line-height: 27px;
      margin-bottom:25px;
      text-align: center;
      width:100%;
-     
+     font-weight: bold;
      }
      
      .social{
@@ -847,19 +846,20 @@ footer p:nth-child(1){
 
     .social a{
       color: var(--color-white);
-      border:1px solid #101010 ;
-      padding:9px;
-     border-radius:50%;
-     background:#101010 ;
+      background-color:black;
+      font-size:1.7em;
+      border:1px solid #101010 ;   
+      border-radius:50%;
+      padding:10px;
      align-items:center;
      display:flex;
      justify-content:center;
      margin:0 0 0 5px;
     }
      .end{
-     letter-spacing: 1px;
-     color: #f9004d; 
-     font-size: 14px;
+     color:white; 
+     font-size:1em;
+     font-weight: bold;
      bottom:35px;
      border: 1px solid transparent;
      }
@@ -932,7 +932,7 @@ footer p:nth-child(1){
 
   .testimony-card .quote p{
       font-size: 0.8em;
-      font-family: 'Mukta',sans-serif;
+      
   }
   
         
