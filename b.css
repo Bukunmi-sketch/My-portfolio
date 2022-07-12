@@ -887,7 +887,7 @@ footer p:nth-child(1){
     padding:10px 30px;
     border-radius:30px;
     background-color: var(--color-white);
-          
+    font-family: 'work sans', sans-serif;      
   }
 
 
